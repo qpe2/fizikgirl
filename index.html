@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Функция Максвелла</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Функция Максвелла</h1>
+        <p class="formula">f(v) = 4π*(M/2πRT)<sup>3/2</sup>*v<sup>2</sup>*e<sup>(-(Mv<sup>2</sup>/2RT))</sup></p>
+
+        <div class="variables">
+            <h2>Переменные:</h2>
+            <div class="input-group">
+                <label for="temperature">T:</label>
+                <input type="number" id="temperature" placeholder="K" value="300">
+            </div>
+            <div class="input-group">
+                <label for="molarMass">M:</label>
+                <input type="number" id="molarMass" placeholder="г/моль" value="28.01">
+            </div>
+            <div class="input-group">
+                <label for="vMax">V max:</label>
+                <input type="number" id="vMax" placeholder="м/c" value="2000">
+            </div>
+        </div>
+
+        <button id="plotButton">Создать график</button>
+        <div id="plot"></div>
+    </div>
+
+    <footer class="author-info">
+        <p>Автор:</p>
+        <p>Пыльнова</p>
+        <p>Ксения</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
