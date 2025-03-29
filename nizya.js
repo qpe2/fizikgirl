@@ -37,7 +37,7 @@ export default class ChartSystem {
 							display: true,
 							text: "V (м/с)", // title for OX
 							align: "end",
-							color: "rgb(0, 0, 0)"
+							color: "rgb(23, 23, 30)"
 						}
 					},
 					y: {
@@ -45,7 +45,7 @@ export default class ChartSystem {
 							display: true,
 							text: "F(v)*10^3 (с/м)", // title for OY
 							align: "end",
-							color: "rgb(0, 0, 0)"
+							color: "rgb(43, 44, 10)"
 						}
 					}
 				}
