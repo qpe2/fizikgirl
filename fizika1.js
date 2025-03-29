@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Создаем данные для графика
         const vValues = [];
         const fValues = [];
-        const vMax = 2000; // Максимальная скорость
+        const vMax = []; // Максимальная скорость
         const step = 20; // Шаг для вычисления значений
         for (let v = 0; v <= vMax; v += step) {
             vValues.push(v);
